@@ -1,0 +1,10 @@
+version: '3'
+services:
+  geyser:
+    image: roblkyogre/docker-geyser:latest
+    # build: .
+    container_name: geyser
+    env_file: ./docker.env
+    ports:
+      - 19132:19132/udp
+    restart: unless-stopped
