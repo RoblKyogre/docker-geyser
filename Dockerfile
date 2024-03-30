@@ -9,7 +9,7 @@ RUN apk add uuidgen wget
 COPY /root /
 
 WORKDIR /app
-RUN wget -O /app/Geyser.jar "https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/standalone"
+ADD "https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/standalone" /app/Geyser.jar
 
 STOPSIGNAL SIGTERM
 
