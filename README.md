@@ -3,7 +3,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/roblkyogre/docker-geyser)](https://hub.docker.com/r/roblkyogre/docker-geyser)
 [![Docker Image Version (tag)](https://img.shields.io/docker/v/roblkyogre/docker-geyser/latest)](https://hub.docker.com/r/roblkyogre/docker-geyser/tags)
 
-[GeyserMC](https://geysermc.org/) as a Docker Container
+[Geyser](https://geysermc.org/) as a Docker Container
 
 [Docker Hub](https://hub.docker.com/r/roblkyogre/docker-geyser/) | [GitHub Repo](https://github.com/RoblKyogre/docker-geyser/)
 
