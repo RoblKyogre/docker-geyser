@@ -46,8 +46,6 @@ pingPassthroughInterval="${PING_PASSTHROUGH_INTERVAL:-3}"
 forwardPlayerPing="${FORWARD_PLAYER_PING:-false}"
 maxPlayers="${MAX_PLAYERS:-100}"
 debugMode="${DEBUG_MODE:-false}"
-allowThirdPartyCapes="${ALLOW_THIRD_PARTY_CAPES:-false}"
-allowThirdPartyEars="${ALLOW_THIRD_PARTY_EARS:-false}"
 showCooldown="${SHOW_COOLDOWN:-title}"
 showCoordinates="${SHOW_COORDINATES:-true}"
 disableBedrockScaffolding="${DISABLE_BEDROCK_SCAFFOLDING:-false}"
@@ -121,8 +119,6 @@ echo "ping-passthrough-interval: ${pingPassthroughInterval}" >> ${CONFIG_FILE}
 echo "forward-player-ping: ${forwardPlayerPing}" >> ${CONFIG_FILE}
 echo "max-players: ${maxPlayers}" >> ${CONFIG_FILE}
 echo "debug-mode: ${debugMode}" >> ${CONFIG_FILE}
-echo "allow-third-party-capes: ${allowThirdPartyCapes}" >> ${CONFIG_FILE}
-echo "allow-third-party-ears: ${allowThirdPartyEars}" >> ${CONFIG_FILE}
 echo "show-cooldown: ${showCooldown}" >> ${CONFIG_FILE}
 echo "show-coordinates: ${showCoordinates}" >> ${CONFIG_FILE}
 echo "disable-bedrock-scaffolding: ${disableBedrockScaffolding}" >> ${CONFIG_FILE}
