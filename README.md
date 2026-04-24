@@ -9,13 +9,12 @@
 
 ## Running
 
-- Download the `docker-compose.yml` and `docker.env` files:
+- Download the `docker-compose.yml` file:
   ```
   wget https://github.com/KiyoNetcat/docker-geyser/raw/main/docker-compose.yml
-  wget https://github.com/KiyoNetcat/docker-geyser/raw/main/docker.env
   ```
 
-- Edit `docker.env` to fit your preferences.
+- Edit `docker-compose.yml` to fit your preferences.
 
 - After that, start the container with this command:
   ```
