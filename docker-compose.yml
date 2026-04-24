@@ -16,4 +16,4 @@ services:
       - 19132:19132/udp
     restart: unless-stopped
     volumes:
-      - ./data:/app
+      - ./data:/data

@@ -8,10 +8,10 @@ ARG TARGETVARIANT
 RUN apk add uuidgen wget
 COPY /root /
 
-WORKDIR /app
-ADD "https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/standalone" /app/Geyser.jar
+ADD "https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/standalone" /Geyser.jar
 
 STOPSIGNAL SIGTERM
 
+WORKDIR /data
 ENTRYPOINT ["/docker-entrypoint.sh"]
 EXPOSE 19132/udp

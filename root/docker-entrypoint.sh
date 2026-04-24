@@ -7,5 +7,5 @@ do
 	${SCRIPT_FILE}
 done
 
-cd /app
-exec java ${JVM_OPTS: } -jar Geyser.jar $@
+cd /data
+exec java ${JVM_OPTS: } -jar /Geyser.jar $@
