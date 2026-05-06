@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=eclipse-temurin:21-jre-alpine
+ARG BASE_IMAGE=eclipse-temurin:25-jre-alpine
 FROM ${BASE_IMAGE} as final
 
 ARG TARGETOS
